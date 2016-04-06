@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Vitamínes</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="text_vitaminas">Vitaminas</string>
+    <string name="text_vitamina_a">A</string>
+    <string name="text_vitamina_b">B</string>
+    <string name="text_vitamina_c">C</string>
+    <string name="text_vitamina_d">D</string>
+    <string name="text_vitamina_e">E</string>
+</resources>
