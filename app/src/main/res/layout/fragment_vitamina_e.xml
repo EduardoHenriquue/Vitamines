@@ -7,7 +7,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Vitamina E"
-        android:textSize="@dimen/text_contato"
+        android:textSize="@dimen/text_title"
         android:layout_gravity="center_horizontal"
         android:textColor="@color/md_grey_500"
         />

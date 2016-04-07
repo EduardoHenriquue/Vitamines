@@ -2,10 +2,48 @@
     <string name="app_name">Vitamínes</string>
     <string name="title_activity_main">MainActivity</string>
 
+    <!-- Título da toolbar e tabs-->
     <string name="text_vitaminas">Vitaminas</string>
     <string name="text_vitamina_a">A</string>
     <string name="text_vitamina_b">B</string>
     <string name="text_vitamina_c">C</string>
     <string name="text_vitamina_d">D</string>
     <string name="text_vitamina_e">E</string>
+
+    <!-- Textos vitamina A -->
+    <string name="title_funcoes_no_organismo">Funções no organismo</string>
+    <string name="text_funcoes_no_organismo">
+        Auxilia na formação dos ossos, dentes, pele, cabelo e funções da retina.
+        Protege o aparelho respiratório, digestivo e urinário.
+    </string>
+    <string name="title_problemas">Problemas causadas pela carência</string>
+    <string name="text_problemas">
+        Problemas de visão, secura da pele, diminuição de glóbulos vermelhos, formação de cálculos renais.
+    </string>
+    <string name="title_fontes">Fontes</string>
+    <string name="title_frutas">Frutas</string>
+    <string name="title_vegetais">Vegetais</string>
+    <string name="title_outras_fontes">Outras fontes</string>
+    <string name="text_manga">Manga</string>
+    <string name="text_melao">Melão</string>
+    <string name="text_mamao_papaia">Mamão Papaia</string>
+    <string name="text_cenoura">Cenoura</string>
+    <string name="text_brocolis">Brócolis</string>
+    <string name="text_pimentao">Pimentão</string>
+    <string name="text_abobora">Abóbora</string>
+    <string name="text_figado">Fígado</string>
+    <string name="text_queijo">Queijo</string>
+    <string name="text_leite">Leite</string>
+    <string name="text_ovo">Gema de Ovo</string>
+
+    <!-- Outros textos -->
+    <string name="text_avitaminoses">Avitaminoses</string>
+
+    <!-- Spinner Fontes -->
+    <string-array name="fontes_array">
+        <item>Frutas</item>
+        <item>Vegetais</item>
+        <item>Outras Fontes</item>
+    </string-array>
+
 </resources>

@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Cores dos textos -->
+    <array name="text_color">
+        <item>@color/txt_splash</item>
+        <item>@color/title_primary</item>
+        <item>@color/title_secundary</item>
+        <item>@color/txt_info</item>
+    </array>
+    <color name="txt_splash">@color/md_grey_500</color>
+    <color name="title_primary">@color/md_blue_grey_700</color>
+    <color name="title_secundary">@color/md_blue_grey_500_75</color>
+    <color name="txt_info">@color/md_grey_500</color>
+
+
     <!-- Patela de cores do Material Design
     http://www.google.com/design/spec/style/color.html#color-ui-color-palette -->
     <!--Red-->

@@ -1,16 +1,444 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <TextView
-        android:layout_width="wrap_content"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Vitamina A"
-        android:textSize="@dimen/text_contato"
-        android:layout_gravity="center_horizontal"
-        android:textColor="@color/md_grey_500"
-        />
+        android:orientation="vertical">
+
+        <!-- Funções no Organismo -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_funcoes_vitamina_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_funcoes_no_organismo"
+                android:textSize="@dimen/text_title"
+                android:textColor="@color/title_primary"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                />
+            <TextView
+                android:id="@+id/text_funcoes_vitamina_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_funcoes_no_organismo"
+                android:textSize="@dimen/text_info"
+                android:textColor="@color/txt_info"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                />
+        </LinearLayout>
+
+        <!-- Problemas -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_problemas_vitamina_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_problemas"
+                android:textSize="@dimen/text_title"
+                android:textColor="@color/title_primary"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                />
+            <TextView
+                android:id="@+id/text_avitaminoses_vitamina_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_avitaminoses"
+                android:textSize="@dimen/text_info"
+                android:textColor="@color/title_secundary"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                />
+            <TextView
+                android:id="@+id/text_problemas_vitamina_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_problemas"
+                android:textSize="@dimen/text_info"
+                android:textColor="@color/txt_info"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                />
+        </LinearLayout>
+
+        <!-- Fontes -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_fontes_vitamina_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_fontes"
+                android:textSize="@dimen/text_title"
+                android:textColor="@color/title_primary"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                />
+
+            <TextView
+                android:id="@+id/title_frutas_vitamina_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_frutas"
+                android:textSize="@dimen/text_info"
+                android:textColor="@color/title_secundary"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                />
+
+            <!-- Frutas -->
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    >
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/manga"
+                        />
+                    <TextView
+                        android:id="@+id/text_fruta_manga"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_manga"
+                        android:textSize="@dimen/text_info"
+                        android:textColor="@color/txt_info"
+                        android:layout_gravity="center_horizontal"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin" >
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/melao_image"
+                        />
+                    <TextView
+                        android:id="@+id/text_fruta_melao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_melao"
+                        android:textSize="@dimen/text_info"
+                        android:textColor="@color/txt_info"
+                        android:layout_gravity="center_horizontal"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin" >
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/mamao_papaia"
+                        />
+                    <TextView
+                        android:id="@+id/text_fruta_mamao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_mamao_papaia"
+                        android:textSize="@dimen/text_info"
+                        android:textColor="@color/txt_info"
+                        android:layout_gravity="center_horizontal"
+                        />
+                </LinearLayout>
+            </GridLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                >
+
+            </View>
+
+            <!-- Vegetais -->
+            <TextView
+                android:id="@+id/title_vegetais_vitamina_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_vegetais"
+                android:textSize="@dimen/text_info"
+                android:textColor="@color/title_secundary"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/cenouras"
+                        />
+                    <TextView
+                        android:id="@+id/text_vegetais_cenoura"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_cenoura"
+                        android:textSize="@dimen/text_info"
+                        android:textColor="@color/txt_info"
+                        android:layout_gravity="center_horizontal"
+                        />
 
 
-</LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/brocolis"
+                        />
+                    <TextView
+                        android:id="@+id/text_vegetais_brocolis"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_brocolis"
+                        android:textSize="@dimen/text_info"
+                        android:textColor="@color/txt_info"
+                        android:layout_gravity="center_horizontal"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/pimentao"
+                        />
+                    <TextView
+                        android:id="@+id/text_vegetais_pimentao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_pimentao"
+                        android:textSize="@dimen/text_info"
+                        android:textColor="@color/txt_info"
+                        android:layout_gravity="center_horizontal"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/abobora"
+                        />
+                    <TextView
+                        android:id="@+id/text_vegetais_abobora"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_abobora"
+                        android:textSize="@dimen/text_info"
+                        android:textColor="@color/txt_info"
+                        android:layout_gravity="center_horizontal"
+                        />
+                </LinearLayout>
+
+            </GridLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                >
+
+            </View>
+
+
+            <!-- Outros alimentos -->
+            <TextView
+                android:id="@+id/title_outras_fontes_vitamina_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_outras_fontes"
+                android:textSize="@dimen/text_info"
+                android:textColor="@color/title_secundary"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/figado"
+                        />
+                    <TextView
+                        android:id="@+id/text_outras_fontes_figado"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_figado"
+                        android:textSize="@dimen/text_info"
+                        android:textColor="@color/txt_info"
+                        android:layout_gravity="center_horizontal"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/ovo"
+                        />
+                    <TextView
+                        android:id="@+id/text_outras_fontes_ovo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_ovo"
+                        android:textSize="@dimen/text_info"
+                        android:textColor="@color/txt_info"
+                        android:layout_gravity="center_horizontal"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/leite"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin"
+                        />
+                    <TextView
+                        android:id="@+id/text_outras_fontes_leite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_leite"
+                        android:textSize="@dimen/text_info"
+                        android:textColor="@color/txt_info"
+                        android:layout_gravity="center_horizontal"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/queijo"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin"
+                        />
+                    <TextView
+                        android:id="@+id/text_outras_fontes_queijo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_queijo"
+                        android:textSize="@dimen/text_info"
+                        android:textColor="@color/txt_info"
+                        android:layout_gravity="center_horizontal"
+                        />
+                </LinearLayout>
+
+            </GridLayout>
+
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</ScrollView>

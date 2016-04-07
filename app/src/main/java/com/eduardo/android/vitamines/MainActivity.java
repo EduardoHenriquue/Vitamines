@@ -5,6 +5,8 @@ import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 
 import com.eduardo.android.vitamines.Fragments.FragmentVitaminaA;
 import com.eduardo.android.vitamines.Fragments.FragmentVitaminaB;
@@ -18,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
     private Toolbar toolbar;
     private TabLayout tabLayout;
     private ViewPager viewPager;
+    private Spinner spinner;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +38,13 @@ public class MainActivity extends AppCompatActivity {
         setupViewPager(this.viewPager);
         this.tabLayout = (TabLayout)findViewById(R.id.tabs_vitamines);
         this.tabLayout.setupWithViewPager(this.viewPager);
+        /*
+        this.spinner = (Spinner)findViewById(R.id.spinner_fontes);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.fontes_array, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        this.spinner.setAdapter(adapter);
+        */
+
     }
 
     public void setupViewPager(ViewPager viewPager){
