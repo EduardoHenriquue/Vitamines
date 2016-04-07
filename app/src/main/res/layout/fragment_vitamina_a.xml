@@ -28,7 +28,7 @@
                 android:id="@+id/text_funcoes_vitamina_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/text_funcoes_no_organismo"
+                android:text="@string/text_funcoes_no_organismo_vitamina_a"
                 android:textSize="@dimen/text_info"
                 android:textColor="@color/txt_info"
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
@@ -66,7 +66,7 @@
                 android:id="@+id/text_problemas_vitamina_a"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/text_problemas"
+                android:text="@string/text_problemas_avitaminoses_a"
                 android:textSize="@dimen/text_info"
                 android:textColor="@color/txt_info"
                 android:layout_marginTop="@dimen/activity_horizontal_margin"
@@ -187,6 +187,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:layout_margin="@dimen/activity_horizontal_margin"
+                android:visibility="visible"
                 >
 
             </View>
@@ -309,6 +310,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:layout_margin="@dimen/activity_horizontal_margin"
+                android:visibility="visible"
                 >
 
             </View>

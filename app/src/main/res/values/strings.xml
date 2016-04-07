@@ -10,23 +10,31 @@
     <string name="text_vitamina_d">D</string>
     <string name="text_vitamina_e">E</string>
 
-    <!-- Textos vitamina A -->
+    <!-- Textos tópicos das vitaminas -->
     <string name="title_funcoes_no_organismo">Funções no organismo</string>
-    <string name="text_funcoes_no_organismo">
-        Auxilia na formação dos ossos, dentes, pele, cabelo e funções da retina.
-        Protege o aparelho respiratório, digestivo e urinário.
-    </string>
     <string name="title_problemas">Problemas causadas pela carência</string>
-    <string name="text_problemas">
-        Problemas de visão, secura da pele, diminuição de glóbulos vermelhos, formação de cálculos renais.
-    </string>
+    <string name="text_avitaminoses">Avitaminoses</string>
     <string name="title_fontes">Fontes</string>
     <string name="title_frutas">Frutas</string>
     <string name="title_vegetais">Vegetais</string>
+    <string name="title_vegetais_e_graos">Vegetais e grãos</string>
     <string name="title_outras_fontes">Outras fontes</string>
+    <string name="title_origem_animal">Origem animal</string>
+    <string name="title_peixes">Peixes gordurosos</string>
+
+    <!-- Textos vitamina A -->
+
+    <string name="text_funcoes_no_organismo_vitamina_a">
+        Auxilia na formação dos ossos, dentes, pele, cabelo e funções da retina.
+        Protege o aparelho respiratório, digestivo e urinário.
+    </string>
+    <string name="text_problemas_avitaminoses_a">
+        Problemas de visão, secura da pele, diminuição de glóbulos vermelhos, formação de cálculos renais.
+    </string>
+    <!-- Fontes vitamina A -->
     <string name="text_manga">Manga</string>
     <string name="text_melao">Melão</string>
-    <string name="text_mamao_papaia">Mamão Papaia</string>
+    <string name="text_mamao_papaia">Mamão papaia</string>
     <string name="text_cenoura">Cenoura</string>
     <string name="text_brocolis">Brócolis</string>
     <string name="text_pimentao">Pimentão</string>
@@ -34,16 +42,72 @@
     <string name="text_figado">Fígado</string>
     <string name="text_queijo">Queijo</string>
     <string name="text_leite">Leite</string>
-    <string name="text_ovo">Gema de Ovo</string>
+    <string name="text_ovo">Gema de ovo</string>
+
+    <!-- Textos vitamina B-->
+    <string name="text_funcoes_no_organismo_vitamina_b">
+        Auxilia na formação das hemácias, anticorpos e produção de energia.
+        Atua no metabolismo dos açúcares, proteínas, gorduras e enzimas.
+        Também atua nos sistemas nervoso e digestivo.
+    </string>
+    <string name="text_complexo_b">
+        Vitaminas do complexo B: B1, B2, B3, B5, B6, B7, B9 e B12
+    </string>
+    <string name="text_problemas_avitaminoses_b">
+        Inflamações na língua, anemias, seborréia, fadigas, cãibras musculares, insônia e distúrbios de crescimento.
+    </string>
+    <!-- Fontes vitamina B -->
+    <string name="text_banana">Banana</string>
+    <string name="text_abacate">Abacate</string>
+    <string name="text_morango">Morango</string>
+    <string name="text_milho">Milho</string>
+    <string name="text_espinafre">Espinafre</string>
+    <string name="text_couve">Couve-flor</string>
+    <string name="text_soja">Soja</string>
+    <string name="text_carnes">Carnes</string>
+    <string name="text_levedo">Levedo de cerveja</string>
+    <string name="text_batatas">Batatas</string>
+    <string name="text_produtos_lacteos">Produtos lácteos</string>
+
+    <!-- Textos vitamina C -->
+    <string name="text_funcoes_no_organismo_vitamina_c">
+        Preserva os ossos, dentes, gengivas e vasos sanguíneos. Aumenta a absorção de ferro.
+        Ajuda o sistema imunológico e aumenta a cicatrização.
+    </string>
+    <string name="text_problemas_avitaminoses_c">
+        Anemia, inflamação das mucosas, enfraquecimento dos vasos capilares sangüíneos,
+        podendo ocorrer sangramento em diversas partes do corpo.
+        Estes são sintomas os sintomas de uma doença chamada escorbuto.
+    </string>
+    <!-- Fontes vitamina C -->
+    <string name="text_acerola">Acerola</string>
+    <string name="text_goiaba">Goiaba</string>
+    <string name="text_laranja">Laranja</string>
+    <string name="text_abacaxi">Abacaxi</string>
+    <string name="text_ostras">Ostras</string>
+    <string name="text_tomate">Tomate</string>
+    <string name="text_pimenta_malagueta">Pimenta malagueta</string>
+    <string name="text_camu_camu">Camu-camu</string>
+
+
+    <!-- Textos vitamina D -->
+    <string name="text_funcoes_no_organismo_vitamina_d">
+        Esta vitamina é produzida pela exposição da pele ao sol.
+        É fundamental no fortalecimento dos ossos e dentes e ajuda na coagulação do sangue.
+        Está presente nos alimentos de origem animal, como leite e ovos e em peixes gordurosos.
+    </string>
+    <string name="text_problemas_avitaminoses_d">
+        Raquitismo e osteoporose.
+    </string>
+    <!-- Fontes vitamina C -->
+    <string name="text_sardinha">Sardinha</string>
+    <string name="text_atum">Atum</string>
+    <string name="text_bagre">Bagre</string>
+    <string name="text_cogumelos">Cogumelos</string>
+
 
     <!-- Outros textos -->
-    <string name="text_avitaminoses">Avitaminoses</string>
 
-    <!-- Spinner Fontes -->
-    <string-array name="fontes_array">
-        <item>Frutas</item>
-        <item>Vegetais</item>
-        <item>Outras Fontes</item>
-    </string-array>
+
 
 </resources>

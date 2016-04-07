@@ -1,15 +1,323 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <TextView
-        android:layout_width="wrap_content"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Vitamina D"
-        android:textSize="@dimen/text_title"
-        android:layout_gravity="center_horizontal"
-        android:textColor="@color/md_grey_500"
-        />
+        android:orientation="vertical">
 
-</LinearLayout>
+        <!-- Funções no Organismo -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_funcoes_vitamina_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_funcoes_no_organismo"
+                android:textSize="@dimen/text_title"
+                android:textColor="@color/title_primary"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                />
+            <TextView
+                android:id="@+id/text_funcoes_vitamina_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_funcoes_no_organismo_vitamina_d"
+                android:textSize="@dimen/text_info"
+                android:textColor="@color/txt_info"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                />
+        </LinearLayout>
+
+        <!-- Problemas -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_problemas_vitamina_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_problemas"
+                android:textSize="@dimen/text_title"
+                android:textColor="@color/title_primary"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                />
+            <TextView
+                android:id="@+id/text_avitaminoses_vitamina_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_avitaminoses"
+                android:textSize="@dimen/text_info"
+                android:textColor="@color/title_secundary"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                />
+            <TextView
+                android:id="@+id/text_problemas_vitamina_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_problemas_avitaminoses_d"
+                android:textSize="@dimen/text_info"
+                android:textColor="@color/txt_info"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                />
+        </LinearLayout>
+
+        <!-- Fontes -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title_fontes_vitamina_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_fontes"
+                android:textSize="@dimen/text_title"
+                android:textColor="@color/title_primary"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                />
+
+            <TextView
+                android:id="@+id/title_peixes_vitamina_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_peixes"
+                android:textSize="@dimen/text_info"
+                android:textColor="@color/title_secundary"
+                android:layout_marginTop="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                />
+
+            <!-- Peixes -->
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    >
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/atum"
+                        />
+                    <TextView
+                        android:id="@+id/text_peixe_atum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_atum"
+                        android:textSize="@dimen/text_info"
+                        android:textColor="@color/txt_info"
+                        android:layout_gravity="center_horizontal"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin" >
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/sardinha"
+                        />
+                    <TextView
+                        android:id="@+id/text_peixe_sardinha"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_sardinha"
+                        android:textSize="@dimen/text_info"
+                        android:textColor="@color/txt_info"
+                        android:layout_gravity="center_horizontal"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin" >
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/bagre"
+                        />
+                    <TextView
+                        android:id="@+id/text_peixe_bagre"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_bagre"
+                        android:textSize="@dimen/text_info"
+                        android:textColor="@color/txt_info"
+                        android:layout_gravity="center_horizontal"
+                        />
+                </LinearLayout>
+            </GridLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:visibility="visible"
+                >
+
+            </View>
+
+            <!-- Origem animal -->
+            <TextView
+                android:id="@+id/title_origem_animal_vitamina_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_origem_animal"
+                android:textSize="@dimen/text_info"
+                android:textColor="@color/title_secundary"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/leite"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin"
+                        />
+                    <TextView
+                        android:id="@+id/text_origem_animal_leite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_leite"
+                        android:textSize="@dimen/text_info"
+                        android:textColor="@color/txt_info"
+                        android:layout_gravity="center_horizontal"
+                        />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/ovo"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin"
+                        />
+                    <TextView
+                        android:id="@+id/text_origem_animal_ovo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_ovo"
+                        android:textSize="@dimen/text_info"
+                        android:textColor="@color/txt_info"
+                        android:layout_gravity="center_horizontal"
+                        />
+
+                </LinearLayout>
+
+            </GridLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="@dimen/activity_horizontal_margin"
+                android:visibility="visible"
+                >
+
+            </View>
+
+
+            <!-- Outros alimentos -->
+            <TextView
+                android:id="@+id/title_outras_fontes_vitamina_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/title_outras_fontes"
+                android:textSize="@dimen/text_info"
+                android:textColor="@color/title_secundary"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_horizontal_margin"
+                />
+
+            <GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:columnCount="2">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                    android:layout_marginRight="@dimen/activity_horizontal_margin"
+                    android:layout_marginBottom="@dimen/activity_horizontal_margin">
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/cogumelos"
+                        />
+                    <TextView
+                        android:id="@+id/text_outras_fontes_cogumelos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_cogumelos"
+                        android:textSize="@dimen/text_info"
+                        android:textColor="@color/txt_info"
+                        android:layout_gravity="center_horizontal"
+                        />
+
+                </LinearLayout>
+
+            </GridLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
