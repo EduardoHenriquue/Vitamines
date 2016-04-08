@@ -2,12 +2,10 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="fab_margin">16dp</dimen>
-    <dimen name="tamanho_ico">128dp</dimen>
-
-    <dimen name="ico_contato">64dp</dimen>
     <dimen name="ico_splash">200dp</dimen>
     <dimen name="text_title">24sp</dimen>
     <dimen name="text_info">18sp</dimen>
     <dimen name="text_splash">32sp</dimen>
+    <dimen name="image_size">150dp</dimen>
+    <dimen name="margin_text_splash">64dp</dimen>
 </resources>

@@ -12,7 +12,7 @@
 
     <!-- Textos tópicos das vitaminas -->
     <string name="title_funcoes_no_organismo">Funções no organismo</string>
-    <string name="title_problemas">Problemas causadas pela carência</string>
+    <string name="title_problemas">Problemas causados pela carência</string>
     <string name="text_avitaminoses">Avitaminoses</string>
     <string name="title_fontes">Fontes</string>
     <string name="title_frutas">Frutas</string>
@@ -44,7 +44,7 @@
     <string name="text_figado">Fígado</string>
     <string name="text_queijo">Queijo</string>
     <string name="text_leite">Leite</string>
-    <string name="text_ovo">Ovo</string>
+    <string name="text_ovo">Ovos</string>
 
 
     <!-- Textos vitamina B-->
@@ -80,9 +80,9 @@
         Ajuda o sistema imunológico e aumenta a cicatrização.
     </string>
     <string name="text_problemas_avitaminoses_c">
-        Anemia, inflamação das mucosas, enfraquecimento dos vasos capilares sangüíneos,
+        Anemia, inflamação das mucosas, enfraquecimento dos vasos capilares sanguíneos,
         podendo ocorrer sangramento em diversas partes do corpo.
-        Estes são sintomas os sintomas de uma doença chamada escorbuto.
+        Estes são os sintomas de uma doença chamada escorbuto.
     </string>
 
     <!-- Fontes vitamina C -->
@@ -117,7 +117,7 @@
     <string name="text_funcoes_no_organismo_vitamina_e">
         Apresenta forte ação antioxidante.
         Combate os radicais livres e reduz os riscos de doenças cardiovasculares e cerebrais degenerativas.
-        Previne de doenças como Alzheimer e Esclerose Lateral Amiotrófica.
+        Previne de doenças como alzheimer e esclerose lateral amiotrófica.
     </string>
     <string name="text_problemas_avitaminoses_e">
         Dificuldades visuais e alterações neurológicas.
@@ -128,8 +128,5 @@
     <string name="text_oleo_girassol">Óleo de girassol</string>
     <string name="text_amendoim">Amendoim</string>
     <string name="text_germe_trigo">Germe de trigo</string>
-    <string name="text_amendoa">Amêndoa</string>
-    <string name="text_avela">Avelã</string>
-    <string name="text_oleo_cartamo">Óleo de cártamo</string>
 
 </resources>

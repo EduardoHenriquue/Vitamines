@@ -134,8 +134,8 @@
                     >
 
                     <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="@dimen/image_size"
+                        android:layout_height="@dimen/image_size"
                         android:src="@drawable/bananas"
                         />
                     <TextView
@@ -157,8 +157,8 @@
                     android:layout_marginRight="@dimen/activity_horizontal_margin" >
 
                     <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="@dimen/image_size"
+                        android:layout_height="@dimen/image_size"
                         android:src="@drawable/abacate"
                         />
                     <TextView
@@ -180,8 +180,8 @@
                     android:layout_marginRight="@dimen/activity_horizontal_margin" >
 
                     <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="@dimen/image_size"
+                        android:layout_height="@dimen/image_size"
                         android:src="@drawable/morangos"
                         />
                     <TextView
@@ -231,8 +231,8 @@
                     android:layout_marginRight="@dimen/activity_horizontal_margin">
 
                     <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="@dimen/image_size"
+                        android:layout_height="@dimen/image_size"
                         android:src="@drawable/espinafre"
                         />
                     <TextView
@@ -256,8 +256,8 @@
                     android:layout_marginRight="@dimen/activity_horizontal_margin">
 
                     <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="@dimen/image_size"
+                        android:layout_height="@dimen/image_size"
                         android:src="@drawable/couve"
                         />
                     <TextView
@@ -280,8 +280,8 @@
                     android:layout_marginRight="@dimen/activity_horizontal_margin">
 
                     <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="@dimen/image_size"
+                        android:layout_height="@dimen/image_size"
                         android:src="@drawable/milho"
                         />
                     <TextView
@@ -355,8 +355,8 @@
                     android:layout_marginRight="@dimen/activity_horizontal_margin">
 
                     <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="@dimen/image_size"
+                        android:layout_height="@dimen/image_size"
                         android:src="@drawable/carnes"
                         />
                     <TextView
@@ -380,8 +380,8 @@
                     android:layout_marginRight="@dimen/activity_horizontal_margin">
 
                     <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="@dimen/image_size"
+                        android:layout_height="@dimen/image_size"
                         android:src="@drawable/levedo"
                         />
                     <TextView
@@ -404,8 +404,8 @@
                     android:layout_marginRight="@dimen/activity_horizontal_margin">
 
                     <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="@dimen/image_size"
+                        android:layout_height="@dimen/image_size"
                         android:src="@drawable/produtos_lacteos"
                         android:layout_marginTop="@dimen/activity_horizontal_margin"
                         />
@@ -429,8 +429,8 @@
                     android:layout_marginBottom="@dimen/activity_horizontal_margin">
 
                     <ImageView
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="@dimen/image_size"
+                        android:layout_height="@dimen/image_size"
                         android:src="@drawable/batatas"
                         android:layout_marginTop="@dimen/activity_horizontal_margin"
                         />

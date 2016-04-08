@@ -122,8 +122,8 @@
                 >
 
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="@dimen/image_size"
+                    android:layout_height="@dimen/image_size"
                     android:src="@drawable/abacaxi"
                     />
                 <TextView
@@ -145,8 +145,8 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin" >
 
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="@dimen/image_size"
+                    android:layout_height="@dimen/image_size"
                     android:src="@drawable/acerola"
                     />
                 <TextView
@@ -168,8 +168,8 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin" >
 
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="@dimen/image_size"
+                    android:layout_height="@dimen/image_size"
                     android:src="@drawable/goiaba"
                     />
                 <TextView
@@ -191,8 +191,8 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin" >
 
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="@dimen/image_size"
+                    android:layout_height="@dimen/image_size"
                     android:src="@drawable/laranja"
                     />
                 <TextView
@@ -241,8 +241,8 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin">
 
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="@dimen/image_size"
+                    android:layout_height="@dimen/image_size"
                     android:src="@drawable/pimenta_malagueta"
                     />
                 <TextView
@@ -266,8 +266,8 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin">
 
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="@dimen/image_size"
+                    android:layout_height="@dimen/image_size"
                     android:src="@drawable/brocolis"
                     />
                 <TextView
@@ -291,8 +291,8 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin">
 
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="@dimen/image_size"
+                    android:layout_height="@dimen/image_size"
                     android:src="@drawable/espinafre"
                     />
                 <TextView
@@ -315,8 +315,8 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin">
 
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="@dimen/image_size"
+                    android:layout_height="@dimen/image_size"
                     android:src="@drawable/couve"
                     />
                 <TextView
@@ -367,8 +367,8 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin">
 
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="@dimen/image_size"
+                    android:layout_height="@dimen/image_size"
                     android:src="@drawable/camu_camu"
                     />
                 <TextView
@@ -392,8 +392,8 @@
                 android:layout_marginRight="@dimen/activity_horizontal_margin">
 
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="@dimen/image_size"
+                    android:layout_height="@dimen/image_size"
                     android:src="@drawable/ostras"
                     />
                 <TextView
@@ -418,8 +418,8 @@
                 android:layout_marginBottom="@dimen/activity_horizontal_margin">
 
                 <ImageView
-                    android:layout_width="150dp"
-                    android:layout_height="150dp"
+                    android:layout_width="@dimen/image_size"
+                    android:layout_height="@dimen/image_size"
                     android:src="@drawable/tomate"
                     />
                 <TextView
