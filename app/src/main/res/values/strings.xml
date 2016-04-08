@@ -21,9 +21,10 @@
     <string name="title_outras_fontes">Outras fontes</string>
     <string name="title_origem_animal">Origem animal</string>
     <string name="title_peixes">Peixes gordurosos</string>
+    <string name="title_sementes_oleos_vegetais">Sementes e óleos vegetais</string>
+
 
     <!-- Textos vitamina A -->
-
     <string name="text_funcoes_no_organismo_vitamina_a">
         Auxilia na formação dos ossos, dentes, pele, cabelo e funções da retina.
         Protege o aparelho respiratório, digestivo e urinário.
@@ -31,6 +32,7 @@
     <string name="text_problemas_avitaminoses_a">
         Problemas de visão, secura da pele, diminuição de glóbulos vermelhos, formação de cálculos renais.
     </string>
+
     <!-- Fontes vitamina A -->
     <string name="text_manga">Manga</string>
     <string name="text_melao">Melão</string>
@@ -44,6 +46,7 @@
     <string name="text_leite">Leite</string>
     <string name="text_ovo">Gema de ovo</string>
 
+
     <!-- Textos vitamina B-->
     <string name="text_funcoes_no_organismo_vitamina_b">
         Auxilia na formação das hemácias, anticorpos e produção de energia.
@@ -56,6 +59,7 @@
     <string name="text_problemas_avitaminoses_b">
         Inflamações na língua, anemias, seborréia, fadigas, cãibras musculares, insônia e distúrbios de crescimento.
     </string>
+
     <!-- Fontes vitamina B -->
     <string name="text_banana">Banana</string>
     <string name="text_abacate">Abacate</string>
@@ -69,6 +73,7 @@
     <string name="text_batatas">Batatas</string>
     <string name="text_produtos_lacteos">Produtos lácteos</string>
 
+
     <!-- Textos vitamina C -->
     <string name="text_funcoes_no_organismo_vitamina_c">
         Preserva os ossos, dentes, gengivas e vasos sanguíneos. Aumenta a absorção de ferro.
@@ -79,6 +84,7 @@
         podendo ocorrer sangramento em diversas partes do corpo.
         Estes são sintomas os sintomas de uma doença chamada escorbuto.
     </string>
+
     <!-- Fontes vitamina C -->
     <string name="text_acerola">Acerola</string>
     <string name="text_goiaba">Goiaba</string>
@@ -99,15 +105,31 @@
     <string name="text_problemas_avitaminoses_d">
         Raquitismo e osteoporose.
     </string>
-    <!-- Fontes vitamina C -->
+
+    <!-- Fontes vitamina D -->
     <string name="text_sardinha">Sardinha</string>
     <string name="text_atum">Atum</string>
     <string name="text_bagre">Bagre</string>
     <string name="text_cogumelos">Cogumelos</string>
 
 
-    <!-- Outros textos -->
+    <!-- Textos vitamina E -->
+    <string name="text_funcoes_no_organismo_vitamina_e">
+        Apresenta forte ação antioxidante.
+        Combate os radicais livres e reduz os riscos de doenças cardiovasculares e cerebrais degenerativas.
+        Previne de doenças como Alzheimer e Esclerose Lateral Amiotrófica.
+    </string>
+    <string name="text_problemas_avitaminoses_e">
+        Dificuldades visuais e alterações neurológicas.
+    </string>
 
-
+    <!-- Fontes vitamina E -->
+    <string name="text_nozes">Nozes</string>
+    <string name="text_oleo_girassol">Óleo de girassol</string>
+    <string name="text_amendoim">Amendoim</string>
+    <string name="text_germe_trigo">Germe de trigo</string>
+    <string name="text_amendoa">Amêndoa</string>
+    <string name="text_avela">Avelã</string>
+    <string name="text_oleo_cartamo">Óleo de cártamo</string>
 
 </resources>
